@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- Web Clip for Facebook -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.test.facebookshortcut</string>
+            <key>PayloadUUID</key>
+            <string>FACEBOOK-UUID</string>
+            <key>PayloadDisplayName</key>
+            <string>Facebook Shortcut</string>
+            <key>Label</key>
+            <string>Facebook</string>
+            <key>URL</key>
+            <string>https://www.facebook.com/</string>
+            <key>FullScreen</key>
+            <true/>
+            <key>Precomposed</key>
+            <true/>
+            <key>IconURL</key>
+            <string>https://via.placeholder.com/180.png</string> <!-- Sample image URL -->
+            <key>IsRemovable</key>
+            <true/>
+        </dict>
+    </array>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.example.test.config</string>
+    <key>PayloadUUID</key>
+    <string>CONFIG-UUID</string>
+    <key>PayloadDisplayName</key>
+    <string>Custom Shortcut Profile</string>
+</dict>
+</plist>
