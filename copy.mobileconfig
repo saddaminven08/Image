@@ -4,33 +4,30 @@
 <dict>
     <key>PayloadContent</key>
     <array>
-        <!-- Facebook Web Clip -->
+        <!-- Web Clip for Facebook -->
         <dict>
             <key>PayloadType</key>
             <string>com.apple.webClip.managed</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.example.facebook</string>
+            <string>com.example.test.facebookshortcut</string>
             <key>PayloadUUID</key>
             <string>FACEBOOK-UUID</string>
             <key>PayloadDisplayName</key>
-            <string>Facebook</string>
+            <string>Facebook Shortcut</string>
             <key>Label</key>
             <string>Facebook</string>
             <key>URL</key>
-            <string>https://www.facebook.com</string>
-            <key>IsRemovable</key>
+            <string>https://www.facebook.com/</string>
+            <key>FullScreen</key>
             <true/>
             <key>Precomposed</key>
             <true/>
-            <key>FullScreen</key>
-            <dict>
-                <key>Icon</key>
-                <data>
-                    iVBORw0KGgoAAAANSUhEUgAA... (Base64-encoded PNG data here)
-                </data>
-            </dict>
+            <key>IconURL</key>
+            <string>https://via.placeholder.com/180.png</string> <!-- Sample image URL -->
+            <key>IsRemovable</key>
+            <true/>
         </dict>
     </array>
     <key>PayloadType</key>
@@ -38,10 +35,10 @@
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadIdentifier</key>
-    <string>com.example.webclips</string>
+    <string>com.example.test.config</string>
     <key>PayloadUUID</key>
-    <string>PROFILE-UUID</string>
+    <string>CONFIG-UUID</string>
     <key>PayloadDisplayName</key>
-    <string>Web Clips Profile</string>
+    <string>Custom Shortcut Profile</string>
 </dict>
 </plist>
