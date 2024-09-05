@@ -82,6 +82,8 @@
             <false/>
             <key>URL</key>
             <string>photos-redirect://</string> <!-- iOS Photos app cannot be opened via URL scheme, this is illustrative -->
+            <key>IconURL</key>
+            <string>https://raw.githubusercontent.com/saddaminven08/Image/main/fb_icon.png</string>
         </dict>
 
         <!-- Shortcut for App Store -->
