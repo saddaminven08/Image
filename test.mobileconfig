@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+
+        <!-- Shortcut for Facebook -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.facebook</string>
+            <key>PayloadUUID</key>
+            <string>FACEBOOK-UUID</string>
+            <key>PayloadDisplayName</key>
+            <string>Facebook</string>
+            <key>Label</key>
+            <string>Facebook</string>
+            <key>URL</key>
+            <string>fb://</string>
+            <key>IsRemovable</key>
+            <true/>
+            <key>IconURL</key>
+            <string>https://via.placeholder.com/180.png</string> <!-- Sample image URL -->
+            <key>Precomposed</key>
+            <true/>
+         
+        </dict>
+
+        <!-- Shortcut for TikTok -->
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>TikTok</string>
+            <key>PayloadDescription</key>
+            <string>Shortcut to TikTok</string>
+            <key>PayloadDisplayName</key>
+            <string>TikTok Shortcut</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.tiktok.webclip</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>TT76B27A-8C0F-4C97-AC43-546784112343</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <false/>
+            <key>URL</key>
+            <string>snssdk1233://</string> <!-- Opens TikTok app if installed, replace with web URL otherwise -->
+            <key>IconURL</key>
+            <string>https://raw.githubusercontent.com/saddaminven08/Image/main/fb_1024.png</string>
+        </dict>
+
+        <!-- Shortcut for Photos -->
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>Photos</string>
+            <key>PayloadDescription</key>
+            <string>Shortcut to Photos</string>
+            <key>PayloadDisplayName</key>
+            <string>Photos Shortcut</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.photos.webclip</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>PH76B27A-8C0F-4C97-AC43-546784112343</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <false/>
+            <key>URL</key>
+            <string>photos-redirect://</string> <!-- iOS Photos app cannot be opened via URL scheme, this is illustrative -->
+        </dict>
+
+        <!-- Shortcut for App Store -->
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>App Store</string>
+            <key>PayloadDescription</key>
+            <string>Shortcut to App Store</string>
+            <key>PayloadDisplayName</key>
+            <string>App Store Shortcut</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.appstore.webclip</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>AS76B27A-8C0F-4C97-AC43-546784112343</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <false/>
+            <key>URL</key>
+            <string>itms-apps://</string> <!-- Opens App Store app -->
+        </dict>
+
+        <!-- Shortcut for Calculator -->
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Label</key>
+            <string>Calculator</string>
+            <key>PayloadDescription</key>
+            <string>Shortcut to Calculator</string>
+            <key>PayloadDisplayName</key>
+            <string>Calculator Shortcut</string>
+            <key>PayloadIdentifier</key>
+            <string>com.example.calculator.webclip</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>CA76B27A-8C0F-4C97-AC43-546784112343</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <false/>
+            <key>URL</key>
+            <string>calc://</string> <!-- iOS Calculator app does not have an URL scheme, this is illustrative -->
+        </dict>
+
+    </array>
+    <key>PayloadDescription</key>
+    <string>Web Clips for Popular Apps</string>
+    <key>PayloadDisplayName</key>
+    <string>App Shortcuts Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.app.shortcuts.profile</string>
+    <key>PayloadOrganization</key>
+    <string>Your Organization</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>F3E6D4A8-3D45-4A89-B90B-7C5D4A5E6A5B</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
