@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- Facebook Web Clip -->
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.example.facebook</string>
+            <key>PayloadUUID</key>
+            <string>FACEBOOK-UUID</string>
+            <key>PayloadDisplayName</key>
+            <string>Facebook</string>
+            <key>Label</key>
+            <string>Facebook</string>
+            <key>URL</key>
+            <string>https://www.facebook.com</string>
+            <key>IsRemovable</key>
+            <true/>
+            <key>Precomposed</key>
+            <true/>
+            <key>FullScreen</key>
+            <dict>
+                <key>Icon</key>
+                <data>
+                    iVBORw0KGgoAAAANSUhEUgAA... (Base64-encoded PNG data here)
+                </data>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.example.webclips</string>
+    <key>PayloadUUID</key>
+    <string>PROFILE-UUID</string>
+    <key>PayloadDisplayName</key>
+    <string>Web Clips Profile</string>
+</dict>
+</plist>
