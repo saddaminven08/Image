@@ -7,27 +7,28 @@
 
         <!-- Shortcut for Facebook -->
         <dict>
-            <key>PayloadType</key>
+           <key>PayloadType</key>
             <string>com.apple.webClip.managed</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.example.facebook</string>
+            <string>com.abcd.ChargingAnim.shortcut</string>
             <key>PayloadUUID</key>
-            <string>FACEBOOK-UUID</string>
+            <string>YOUR-UUID-HERE</string>
             <key>PayloadDisplayName</key>
-            <string>Facebook</string>
+            <string>Facebook Shortcut</string>
             <key>Label</key>
             <string>Facebook</string>
             <key>URL</key>
             <string>fb://</string>
-            <key>IsRemovable</key>
+            <key>FullScreen</key>
             <true/>
-            <key>IconURL</key>
-            <string>https://via.placeholder.com/180.png</string> <!-- Sample image URL -->
             <key>Precomposed</key>
             <true/>
-         
+            <key>IconURL</key>
+            <string>https://raw.githubusercontent.com/saddaminven08/Image/main/fb_icon.png</string>
+            <key>IsRemovable</key>
+            <true/>
         </dict>
 
         <!-- Shortcut for TikTok -->
