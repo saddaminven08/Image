@@ -19,7 +19,7 @@
             <key>Label</key>
             <string>Facebook</string>
             <key>URL</key>
-            <string>https://www.facebook.com/</string>
+            <string>fb://</string>
             <key>FullScreen</key>
             <true/>
             <key>Precomposed</key>
