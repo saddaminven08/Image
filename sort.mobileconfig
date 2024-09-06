@@ -25,7 +25,7 @@
             <key>Precomposed</key>
             <true/>
             <key>IconURL</key>
-            <string>https://via.placeholder.com/180.png</string> <!-- Sample image URL -->
+            <string>https://raw.githubusercontent.com/saddaminven08/Image/main/fb_icon_180.jpg</string> <!-- Sample image URL -->
             <key>IsRemovable</key>
             <true/>
         </dict>
