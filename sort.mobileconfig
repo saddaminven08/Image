@@ -25,7 +25,7 @@
             <key>Precomposed</key>
             <true/>
             <key>IconURL</key>
-            <string>https%3A%2F%2Fraw.githubusercontent.com%2Fsaddaminven08%2FImage%2Fmain%2Ffb_icon_180.jpg</string>
+            <string>file:///Users/saddam/Library/Developer/CoreSimulator/Devices/7497603A-95E4-46BE-AD51-21EF7CA1C424/data/Containers/Bundle/Application/013AA903-548C-4E08-B4AD-B373D98350B3/ChargingAnim.app/fb_icon.png</string>
             <key>IsRemovable</key>
             <true/>
         </dict>
